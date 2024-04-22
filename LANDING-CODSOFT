@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    body{
+        background-color: gainsboro;
+    }
+    li{
+        float: right;
+        list-style-type: none;
+        padding: 14px 16px;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+  }
+    .ppt{
+        background-color: cornsilk;
+    }
+    .ll{
+        background-color:floralwhite;
+    }
+    .kk{
+        display: flex;
+        justify-content: space-between;
+        background-color: bisque;
+    }
+    .nm{
+    height: 400px;
+    width: 400px;
+    gap:10px;
+  }
+
+</style>
+    </head>
+    <body>
+        <ul>
+       <li ><a href="www.hh.com">HOME</a></li>
+       <li ><a href="www.ll.com">ABOUT</a></li>
+       <li ><a href="www.hty.com">SIGN UP</a></li>
+       </ul>
+       <div class="ppt">       
+           <h1 style="color:brown; text-align: center; margin-left: 50px;" >WELCOME TO LANDING</h1>
+           <img src="https://www.shutterstock.com/image-photo/vintage-red-shoes-on-white-260nw-92008067.jpg" style="margin-left: 600px;">
+            <b><h2 style="text-align: center; font-family: 'Times New Roman';">Welcome to LANDING</h2></b>
+            <h3 style="text-align: center; padding-left: 20px;">A site where you can find all your shoe designs</h3>
+            <h3 style="text-align: center; padding-left: 20px;">A prize range that suits your budget</h3>
+            <h3 style="text-align: center; padding-left: 20px;">All trending shoes and slippers all in one page</h3>
+        </div>
+        <br>
+        <div class="ll">
+            <h2 style="color: darkgreen;">About Us:</h2>
+            <h3 style="font-family: Arial;">Welcome to Landing Store , where every step tells a story!
+            At Landing Store, we believe that shoes are not just a necessity; they are a reflection of your style, personality, and journey. Our passion for footwear goes beyond mere fashion; it's about empowering individuals to walk with confidence, comfort, and flair.
+            Founded with a vision to redefine the shoe-shopping experience,Landing Store is more than just an online store; it's a destination where shoe lovers unite to explore an extensive collection of footwear that caters to every taste and occasion. 
+            But Landing Store is not just about selling shoes; it's about fostering a community of shoe enthusiasts who share a common love for footwear. 
+            As a socially responsible company, we are committed to making a positive impact beyond the realm of footwear. We support ethical and sustainable practices in our sourcing and operations, and we give back to communities in need through various charitable initiatives.</h3>
+            <h3 style="font-family: Arial;">Join us at Landing Store and embark on a journey where every step is a statement, every shoe is a story, and every customer is cherished.</h3>
+            <h3 style="font-family: Arial;">Thank you for choosing us to be a part of your shoe odyssey!</h3>
+            <h3 style="font-family: Arial;">Step into style. Step into Landing Store :]</h3>
+        </div>
+        <br>
+        <center><h2 style="font-family: Georgia; color:chocolate;">Shop by collections</h2></center>
+        <div class="kk">
+                <figure>
+                       <div class="nm"><img src="https://m.media-amazon.com/images/I/81J82VmX-pL._AC_UY300_.jpg" style="width:400px; height:400px;"></div>
+                       <figcaption style="padding-bottom: 100px;"><a href="www.hh.com"><h3>SNEAKERS</h3></a></figcaption>
+                     </figure>
+                     <figure>
+                        <div class="nm"><img src="https://m.media-amazon.com/images/I/71IVQoAEJzL._AC_UY1000_.jpg" style="width:400px; height:400px;"></div>
+                        <figcaption style="padding-bottom: 100px;"><a href="ww.jj.com"><h3>SANDALS</h3></a></figcaption>
+                      </figure>
+                      <figure>
+                        <div class="nm"><img src="https://i.ebayimg.com/images/g/HR0AAOSwGmBjGq2S/s-l1600.jpg" style="width:400px; height:400px;"></div>
+                        <figcaption style="padding-bottom: 100px;"><a href="ww.aa.com"><h3>ATHLETIC WEARS</h3></a></figcaption>
+                      </figure>
+                    </div>
+                    <div class="kk">
+                        <figure>
+                               <div class="nm"><img src="https://imgs7.luluandsky.com/catalog/product/o/1/o1cn01khvylp20buh9e1ino__2916366811-0-cib.jpg" style="width:400px; height:400px;"></div>
+                               <figcaption style="padding-bottom: 100px;"><a href="www.kk.com"><h3>SLIP ONS</h3></a></figcaption>
+                             </figure>
+                             <figure>
+                                <div class="nm"><img src="https://assets.ajio.com/medias/sys_master/root/20230824/uLrF/64e77551afa4cf41f577257c/-473Wx593H-461461364-grey-MODEL.jpg" style="width:400px; height:400px;"></div>
+                                <figcaption style="padding-bottom: 100px;"><a href="www.gh.com"><h3>FLIP FLOPS</h3></a></figcaption>
+                              </figure>
+                              <figure>
+                                <div class="nm"><img src="https://jojomommy.com/cdn/shop/products/71Hc5JjEv5L._AC_SR1840_1472_1445x.jpg?v=1676475066" style="width:400px; height:400px;"></div>
+                                <figcaption style="padding-bottom: 100px;"><a href="www.ll.com"><h3>LOAFERS</h3></a></figcaption>
+                              </figure>
+                            </div>
+    </body>
+</html>
