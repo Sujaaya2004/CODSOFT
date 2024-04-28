@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+body{
+    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+}
+ul li{
+        float: right;
+        list-style-type: none;
+        padding: 14px 16px;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(0, 0, 1);
+  }
+  a{
+    color: azure;
+    font-size: larger;
+  }
+  .hw{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+  section{
+    padding-left: 200px;
+    padding-right: 200px;;
+  }
+  table th,td{
+    border: 1px solid black;
+  }
+  ol li{
+    list-style-type:disc;
+  }
+  footer {
+    background-color:rgb(0, 0, 1);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+              <li><a href="#contactd">Contact</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#proj">Project</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+        </header>
+        <div class="hw">
+            <h1>MY PORTFOLIO</h1>
+            </div>
+            <Center><img src="https://img.freepik.com/premium-photo/cute-girl-photo-ai-generated_980993-1436.jpg"></Center>
+        <section id="about">
+          <H1><b>ABOUT ME</b></H1>
+        <p>Hello! I’m Sofie, a Software Engineer based in USA. With a passion for Web Development.My journey into Web development began since my initial days of my college, sparking my curiosity and propelling me to delve deeper into the intricacies. Over the years, I’ve honed my skills.
+            In addition to my professional endeavors, I enjoy Swimming and drawing. I find inspiration in yoga and am always seeking opportunities to Grow Personally and Professionally.
+            Thank you for visiting my portfolio. I’m excited to connect and explore potential collaborations or opportunities to Web development.
+        </p>
+        </section>
+        <section id="resume">
+          <h1><B>MY RESUME</B></h1>
+        <h3><b>CAREER OBJECTIVE:</b></h3>
+        <p>Hardworking individual seeking employment. Ready to utilize my skills and passion to towards the mission of a company. Bringing a positive attitude and the willingness and motivation to learn new programs.</p>
+        <br>
+        <h3><b>EDUCATIONAL BACKGROUND:</b></h3>
+        <br>
+        <table>
+<tr>
+  <td>QUALIFICATION</td>
+  <td>INSTITUTION</td>
+  <td>YEAR OF PASSING </td>
+</tr>
+<tr>
+  <td>B.E ECE </td>
+  <td>Havard University</td>
+  <td>2026</td>
+</tr>
+<tr>
+  <td>HSC</td>
+  <td>Avila Convent Matric Higher Secondary School</td>
+  <td>2022</td>
+</tr>
+<tr>
+  <td>SSLC</td>
+  <td>Avila Convent Matric Higher Secondary School</td>
+  <td>2020</td>
+</tr>
+</table>
+        </section>
+        <section id="proj">
+          <h1><b>MY PROJECTS</b></h1>
+        <h2>1.A Blockchain-based Record System</h2>
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2214212619306155-gr1.jpg">
+        <p>A Blockchain-based Record System offers a decentralized and immutable platform for securely storing and managing records. Leveraging cryptographic techniques and distributed ledger technology, it ensures data integrity, transparency, and tamper resistance. Each transaction is recorded across a network of nodes, eliminating the need for a central authority. This system enhances trust and accountability in various sectors, including healthcare, finance, and supply chain management. With its transparent and auditable nature, Blockchain-based Record Systems provide a reliable solution for ensuring the integrity and authenticity of digital records, mitigating the risks associated with data manipulation and fraud.</p>
+        <h2>2.QR Based Petrol Pump</h2>
+        <img src="https://paytmblogcdn.paytm.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-15-at-13.49.44.jpeg">
+        <p>A QR-based petrol pump system revolutionizes the fueling process by integrating QR code technology into traditional petrol stations. Customers generate a unique QR code through a mobile app linked to their payment method. At the pump, they scan the QR code, initiating the fueling process without the need for physical cards or cash. The system securely verifies the transaction, authorizes fuel dispensing, and records the purchase. This innovation streamlines operations, reduces transaction time, and enhances security by minimizing the risk of card skimming and fraud. Additionally, it offers convenience to customers while paving the way for a cashless and contactless fueling experience.</p>
+        </section>
+        <section id="skills">
+          <h1><b>MY SKILLS</b></h1>
+        <h3>PERSONAL SKILLS:</h3>
+        <ol>
+          <li>Leadership</li>
+          <li>Team Work</li>
+          <li>Ability to learn quickly</li>
+          <li>Good in communication</li>
+        </ol> 
+        <br>
+        <h3>TECHNICAL SKILLS:</h3>
+        <ol>
+          <li>C</li>
+          <li>C++</li>
+          <li>JAVA</li>
+          <li>SQL</li>
+          <li>DSA</li>
+          <li>HTML,CSS,JAVASCRIPT</li>
+          <li>WEBDEVELOPMENT</li>
+          <li>UI/UX</li>
+        </ol> 
+        <br>
+      <h3>INTEREST:</h3> 
+      <ol>
+        <li>Programming, Web Development, Cloud Computing</li>
+        <li>Hacking</li>
+        <li>Artificial Intelligence</li>
+      </ol>
+      <br>
+      <h3>LANGUAGES:</h3>
+      <ol>
+        <li>ENGLISH </li>
+        <li>TAMIL</li>
+        <li>MALAYALAM</li>
+        <li>HINDI</li>
+        <li>FRENCH</li>
+      </ol> 
+        </section >
+        <section id="contactd">
+            <h1><b>CONTACT DETAILS:</b></h1>
+            <p style="font-size:large"><b>NAME: SOPHIE</b></p>
+            <p style="font-size:large"><b>CONTACT: 9845324585</b></p>
+            <p style="font-size:large"><b>EMAIL: SOPHIES19@gmail.com</b></p> 
+        </section>
+        <footer>
+          <p>&copy; 2024 My Portfolio</p>
+      </footer>
+    </body>
+</html>
