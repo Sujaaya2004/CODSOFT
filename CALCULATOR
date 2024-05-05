@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+}
+h1{
+    color: aquamarine;
+}
+#bt1,#bt2,#bt3,#bt4,#bt5{
+    background-color: cornsilk;
+}
+        </style>
+    </head>
+    <body>
+        <div class="calculator">
+            <h1>YOUR CALCULATOR</h1>
+        <input type="text" id="no1" placeholder="num1"><br>
+        <input type="text" id="no2" placeholder="num2"><br>
+        <p id="res" ></p>
+        <button id="bt1" onclick="add()">+</button>
+        <button id="bt2" onclick="sub()">-</button>
+        <button id="bt3" onclick="mul()">*</button>
+        <button id="bt4" onclick="div()">/</button>
+        <button id="bt5" onclick="rem()">%</button>
+        <script>
+             function add() {
+            var a = document.getElementById("no1").value;
+            var b = document.getElementById("no2").value;
+            document.getElementById("res").innerHTML =  (parseInt(a) + parseInt(b));
+        }
+        function sub() {
+            var a = document.getElementById("no1").value;
+            var b = document.getElementById("no2").value;
+            document.getElementById("res").innerHTML =  + (parseInt(a) - parseInt(b));
+        }
+        function mul() {
+            var a = document.getElementById("no1").value;
+            var b = document.getElementById("no2").value;
+            document.getElementById("res").innerHTML = + (parseInt(a) * parseInt(b));
+        }
+        function div() {
+            var a = document.getElementById("no1").value;
+            var b = document.getElementById("no2").value;
+            document.getElementById("res").innerHTML = + (parseInt(a) / parseInt(b));
+        }
+        function rem() {
+            var a = document.getElementById("no1").value;
+            var b = document.getElementById("no2").value;
+            document.getElementById("res").innerHTML = + (parseInt(a) % parseInt(b));
+        }
+        </script>
+        </div>
+    </body>
+</html>
